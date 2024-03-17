@@ -16,6 +16,10 @@
     <style>
         :root {
             --color-calendar-graph-day-bg: rgba(255,255,255,.1);
+            --color-calendar-graph-day-L1-bg: #3072be;
+            --color-calendar-graph-day-L2-bg: #265b98;
+            --color-calendar-graph-day-L3-bg: #1d4472;
+            --color-calendar-graph-day-L4-bg: #132e4c;
         }
 
         /* width */
@@ -40,6 +44,7 @@
 
         body {
             background-color: #000;
+            background-image: linear-gradient(transparent 60%, rgba(0, 18, 38, 0.95));
             height: 100vh;
             overflow: hidden;
         }
@@ -138,12 +143,12 @@
 <body style="display: flex; justify-content: center; align-items: center; width: 100%;  margin: 0; padding: 1rem; flex-wrap: wrap;">
 
 <!-- Prepare a container for your calendar. -->
-<div class="calendar">
-    <!-- Loading stuff -->
-    Loading the data just for you.
-</div>
 
 <div class="wrapper">
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+    </div>
     <div class="avatar">
         <img src="avatar.webp" width="300"/>
     </div>
