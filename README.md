@@ -1,3 +1,3 @@
-# This is a personal webpage
+# This is my personal website
 
-Visit this [webpage](https://dorultanianos.dev) for basic information about myself.
+A basic temporary website made to exist on the web. 
