@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Inter var', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(theme("colors.gray.300") .05em, transparent .05em), linear-gradient(90deg, theme("colors.gray.300") .05em, transparent .05em);
+    background-size: 1.5em 1.5em;
+}
+
+svg path {
+    fill: var(--tw-content);
+}
